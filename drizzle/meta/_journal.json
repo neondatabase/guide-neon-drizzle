@@ -1,0 +1,20 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1711180563915,
+      "tag": "0000_hesitant_blur",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1711180769858,
+      "tag": "0001_pale_betty_ross",
+      "breakpoints": true
+    }
+  ]
+}

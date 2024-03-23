@@ -1,0 +1,20 @@
+{
+    "scripts": {
+        "dev": "tsx watch src/index.ts",
+        "db:generate": "drizzle-kit generate:pg --schema src/schema.ts --out ./drizzle",
+        "db:migrate": "tsx ./src/migrate.ts",
+        "db:seed": "tsx ./src/seed.ts"
+    },
+    "dependencies": {
+        "@hono/node-server": "^1.8.2",
+        "@neondatabase/serverless": "^0.9.0",
+        "dotenv": "^16.4.5",
+        "drizzle-kit": "^0.20.14",
+        "drizzle-orm": "^0.29.4",
+        "hono": "^4.0.9"
+    },
+    "devDependencies": {
+        "@types/node": "^20.11.17",
+        "tsx": "^3.12.2"
+    }
+}
