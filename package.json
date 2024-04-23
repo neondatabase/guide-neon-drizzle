@@ -11,7 +11,7 @@
         "dotenv": "^16.4.5",
         "drizzle-kit": "^0.20.14",
         "drizzle-orm": "^0.29.4",
-        "hono": "^4.0.9"
+        "hono": "^4.2.7"
     },
     "devDependencies": {
         "@types/node": "^20.11.17",
